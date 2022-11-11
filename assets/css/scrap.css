@@ -1,0 +1,47 @@
+body{
+    font-family: cursive;
+}
+.imgnavbar{
+    box-shadow: 10px 10px 10px 10px grey;
+    border-radius: 5px;
+    position: fixed;
+    border: white ;
+    background-color: white;
+}
+.logo{
+    width: 150px;
+    border-radius: 10px;
+    margin: 10px 0px 0px 10px;
+    position: absolute;
+    left: 20px;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: 400px;
+    top: 65px;
+}
+a{
+    text-decoration: none;
+    color: #e3a72f;
+}
+header{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+button{
+    position: absolute;
+    right: 100px;
+    top: 65px;
+}
+button .header-btn{
+    padding: 10px;
+}
